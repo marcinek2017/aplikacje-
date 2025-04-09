@@ -1,0 +1,11 @@
+<canvas width="400" height="200" id="canvas"> </canvas>
+<script>
+    const canvas=document.querySelector("#canvas");
+    const ctx=canvas.getContext("2d");
+    ctx.beginPath(); //rozpoczecie nowej scieżki 
+    ctx.moveTo(20,20);
+    ctx.lineTo(40,70);
+    ctx.lineTo(50,40);
+    ctx.stroke();
+
+</script>
