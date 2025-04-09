@@ -23,6 +23,8 @@
     $(function($){
         $("table.striped td").mouseover(function(){
             $(this).addClass('highlight');
+        }).mouseout(function(){
+            $(this).removeClass('highlight')
         });
     });
 
